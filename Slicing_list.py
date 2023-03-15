@@ -63,5 +63,5 @@ print("My favourite pizzas are")
 for i in my_pizza_list:
     print(i)
 print("My friend favourite pizzas are")
-for j in my_pizza_list:
+for j in my_friend_fav_pizza:
     print(j)

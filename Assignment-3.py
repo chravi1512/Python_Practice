@@ -16,3 +16,25 @@ print("Floor division of 2 numbers is : ",a//b)
 
 a = 10
 print("",oct(a))
+print("%o"%a)
+
+
+##4. Display float number with two decimal places, using print function.
+b =5.776
+print("%.2f"%b)
+
+##5. Take three different strings from input and assign to three different variables and display on the console.
+
+a = input("enter value1: ")
+b = input("enter value2: ")
+c = input("enter value3: ")
+print(f"{a},{b},{c} are good friends")
+
+##6. Take a input string and convert each character into upper case.
+a = input("enter the value: ")
+print(a.upper())
+
+##7. Take input string and calculate its length without using len function.
+a  =input("enter the value: ")
+for i in a:
+    print(i)
