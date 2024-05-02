@@ -25,8 +25,8 @@ def remove_page(input_pdf, output_pdf, page_number):
     pdf_document.close()
 
 if __name__ == "__main__":
-    input_pdf_path = "C:/Users/chila/OneDrive/Documents/immunizations.pdf"
-    output_pdf_path = "C:/Users/chila/OneDrive/Documents/immunizations-2.pdf"
+    input_pdf_path = "C:/Users/l1.pdf"
+    output_pdf_path = "C:/Users/l2.pdf"
     page_to_remove = 1  # Change this to the page number you want to remove
 
     remove_page(input_pdf_path, output_pdf_path, page_to_remove)
