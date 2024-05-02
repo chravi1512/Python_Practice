@@ -34,4 +34,4 @@ def merge_pages(input_pdf, output_pdf, source_page_number, destination_page_numb
             pdf_writer.write(output_file)
 
 # Example usage
-merge_pages('C:/Users/chila/OneDrive/Documents/pan_nikhil.pdf', 'C:/Users/chila/OneDrive/Documents/pan_nikhil_1.pdf', 1, 2)
+merge_pages('C:/Users/l1.pdf', 'C:/Users/l2.pdf', 1, 2)
