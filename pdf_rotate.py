@@ -19,8 +19,8 @@ def rotate_pdf(input_pdf, output_pdf, rotation_angle):
             pdf_writer.write(output_file)
 
 if __name__ == "__main__":
-    input_pdf = 'C://Users/chila/Downloads/nikhil_vit_1.pdf'  # Replace with the path to your input PDF file
-    output_pdf = 'C://Users/chila/Downloads/nikhil_vit_1.pdf'  # Replace with the desired output PDF file
+    input_pdf = 'C://Users/1.pdf'  # Replace with the path to your input PDF file
+    output_pdf = 'C://Users/c1.pdf'  # Replace with the desired output PDF file
     rotation_angle = 180  # Specify the rotation angle (90 for clockwise, -90 for counterclockwise)
 
     rotate_pdf(input_pdf, output_pdf, rotation_angle)
